@@ -27,7 +27,7 @@ pre: " <b> 8. </b> "
 
 &emsp; **Internship Duration:** From 17/04/2026 to 30/07/2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/fcj-workshop-Hoangthanhhai/images/avatar.png)
 
 ### Report Content
 

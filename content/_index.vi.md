@@ -3,7 +3,6 @@ title: "Báo cáo thực tập"
 date: 2026-07-22
 weight: 8
 chapter: false
-pre: " <b> 8. </b> "
 ---
 
 # Báo cáo thực tập
@@ -26,8 +25,7 @@ pre: " <b> 8. </b> "
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 30/07/2026
 
-![Ảnh đại diện của bạn](/static/images/avatar.png)
-
+![Your profile picture](/images/avatar.png)
 
 
 ### Nội dung báo cáo

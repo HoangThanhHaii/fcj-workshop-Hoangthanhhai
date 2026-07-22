@@ -3,7 +3,6 @@ title: "Internship Report"
 date: 2026-07-22
 weight: 8
 chapter: false
-pre: " <b> 8. </b> "
 ---
 
     
@@ -27,8 +26,7 @@ pre: " <b> 8. </b> "
 
 &emsp; **Internship Duration:** From 17/04/2026 to 30/07/2026
 
-![Your profile picture](/static/images/avatar.png)
-
+![Your profile picture](/images/avatar.png)
 ### Report Content
 
 1.  [Worklog](1-Worklog/)

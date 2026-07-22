@@ -34,14 +34,15 @@ The company provides an internship allowance and offers flexible working hours w
 
 ---
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
+### Additional Questions  
 - If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+ + It is due to the work environment, the enthusiastic support from mentors and admins, the opportunity for rapid skill development and learning, and the strong team spirit within the FCAJ culture.
 
 ---
 
 ### Suggestions & Expectations
 - Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+ + The current situation with the company is quite amusing. I have no suggestions.
+- Would you like to continue this program in the future? 
+ + sure 
+

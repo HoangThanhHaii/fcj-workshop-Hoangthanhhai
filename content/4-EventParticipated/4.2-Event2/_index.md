@@ -52,4 +52,4 @@ Proven strategies for effective collaboration across roles (Dev, Ops, Security, 
 - The event served as a comprehensive bridge empowering tech engineers to boost their capabilities: from mastering modern infrastructure (Docker, AWS WebSockets), optimizing security, and adopting next-gen AI applications (AWS WAF + ML, GraphRAG with AWS Neptune), to refining Teamwork skills and shaping a practical career path from IT Helpdesk to Cloud/DevOps Engineer.
 
 #### Event Photos
-(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-6-6.jpg)
+![](../../images/5-Workshop/ingame-event/anh-event-6-6.jpg)

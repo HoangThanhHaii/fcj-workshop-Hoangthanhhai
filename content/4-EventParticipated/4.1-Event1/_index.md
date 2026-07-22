@@ -47,5 +47,5 @@ Participating in the May 9 event was a very rewarding experience. Through the se
 - Do not rely too heavily on AI; AI is only as powerful as the user's ability to ask the right questions. AI does not replace humans, but those who know how to use AI effectively will replace those who are overly dependent on it.
 
 #### Some Images from the Event
-(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-9-5.jpg)
-(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-9-5.png)
+![](../../images/5-Workshop/ingame-event/anh-event-9-5.jpg)
+![](../../images/5-Workshop/ingame-event/anh-event-9-5.png)

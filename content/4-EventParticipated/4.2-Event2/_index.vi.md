@@ -51,4 +51,4 @@ Bí quyết phối hợp hiệu quả giữa các vai trò (Dev, Ops, Security, 
 - Sự kiện là chiếc cầu nối toàn diện giúp các kỹ sư công nghệ bứt phá năng lực: từ việc làm chủ hạ tầng hiện đại (Docker, AWS WebSockets), tối ưu hóa bảo mật và ứng dụng AI thế hệ mới (AWS WAF + ML, GraphRAG với AWS Neptune), cho đến rèn luyện kỹ năng Làm việc nhóm và định hình lộ trình thăng tiến sự nghiệp thực chiến từ IT Helpdesk lên Cloud/DevOps Engineer
 
 #### Một số hình ảnh khi tham gia sự kiện
-(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-6-6.jpg)
+![](../../images/5-Workshop/ingame-event/anh-event-6-6.jpg)

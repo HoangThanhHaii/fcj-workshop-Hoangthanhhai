@@ -25,7 +25,7 @@ pre: " <b> 1.1. </b> "
 | Wednesday | - Troubleshoot account creation issue (SMS verification code not received) and contact AWS Support... | 2026-04-22 | 2026-04-22 | |
 | Thursday | - Resolve account setup issues | 2026-04-23 | 2026-04-23 | |
 
-### Week 7 Achievements:
+### Week 1 Achievements:
 
 * Understand what AWS is
 * Integrate, connect, and network with team members

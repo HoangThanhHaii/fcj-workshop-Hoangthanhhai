@@ -10,7 +10,7 @@ pre: " <b> 1.8. </b> "
 ### Week 8 Objectives:
 
 * Prepare logic for reading CV content
-* Research Textract/`pypdf` and define extraction scope
+* Research Textract/pypdf and define extraction scope
 * Identify data fields to be extracted for CV analysis
 
 ### Tasks to be carried out this week:

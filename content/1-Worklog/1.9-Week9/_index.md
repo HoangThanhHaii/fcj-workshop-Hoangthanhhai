@@ -27,7 +27,7 @@ pre: " <b> 1.9. </b> "
 ### Week 9 Achievements:
 
 * JSON Output Schema Standardization:
-  * Unified the returning JSON data structure containing all core fields: `score`, `suggested roles`, `strengths`, `weaknesses`, and `recommendations`.
+  * Unified the returning JSON data structure containing all core fields: score, suggested roles, strengths, weaknesses, and recommendations.
 * Hands-on Testing & AI Response Stabilization:
   * Tested prompts against diverse CV templates to eliminate field mismatches and invalid JSON responses.
   * Fine-tuned prompts to optimize cost and latency, and successfully built a Fallback Structure to prevent Backend interruption during AI response failures.

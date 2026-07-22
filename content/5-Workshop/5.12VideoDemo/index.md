@@ -8,4 +8,4 @@ pre: " <b> 5.12. </b> "
 
 ## Link Demo
 
-[Click here to see Video Demo](https://drive.google.com/drive/folders/1-8WQcf2ANIHEQK77XUWeefk3a-egNtfB?hl=vi)
+[Click here to see Video Demo](https://drive.google.com/drive/folders/1-8WQcf2ANIHEQK77XUWeefk3a-egNtfB?hl=vi) <br> [Tap to use the product](https://dat.d1610y03ud0fxp.amplifyapp.com/)

@@ -5,8 +5,6 @@ weight: 8
 chapter: false
 ---
 
-    
-# Internship Report
 ### Student Information:
 &emsp; **Full Name:** Hoang Thanh Hai
 

@@ -6,46 +6,33 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “Event 06-06-2026”
 
 ### Mục Đích Của Sự Kiện
-
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ những kiến thức của anh chị đi trước, sự kiện được tổ chức nhằm mang đến cho cộng đồng lập trình viên và sinh viên Công nghệ thông tin một góc nhìn toàn diện về quy trình phát triển, triển khai và bảo mật các ứng dụng hiện đại trên nền tảng điện toán đám mây
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
-
+- **Bảo Huỳnh** - Docker - A containerization technology
+- **Lê Hoàng Gia Đại** -  Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS
+- **Nguyễn Quốc Bảo** - Topic: Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets
+- **Trương Phước** - Topic: cách làm việc nhóm hiệu quả.
+- **Việt Phát** - Topic: AWS Neptune for Building a Graph Knowledge Base for GraphRAG
+- **Vinh Trần** - Topic: Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học và Lộ trình dịch chuyển sang Cloud/DevOps
 ### Nội Dung Nổi Bật
-
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
-
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
-
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
-
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
-
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
-
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Chuyển đổi Hạ tầng & Đóng gói Ứng dụng (Docker & DevOps):
+Nắm vững cốt lõi công nghệ đóng gói Container với Docker — nền tảng không thể thiếu giúp chuẩn hóa môi trường phát triển, hỗ trợ các hệ thống dễ dàng mở rộng và chuyển dịch lên Cloud
+- An ninh mạng thông minh với AI/ML (AWS WAF + Machine Learning):
+Khám phá phương pháp bảo mật thế hệ mới: Kết hợp AWS WAF với các mô hình Machine Learning để tự động hóa việc nhận diện, phân tích và ngăn chặn các đợt tấn công mạng phức tạp theo thời gian thực
+- Hệ thống Game Đa người chơi trên Cloud (Godot + AWS WebSockets):
+Giải mã kiến trúc kết nối Real-time độ trễ thấp giữa các game client Godot với đám mây AWS thông qua WebSockets, giải quyết bài toán quy mô cho các tựa game Multiplayer
+- Đón đầu xu hướng AI nâng cao (GraphRAG & AWS Neptune):
+Cập nhật công nghệ Tri thức dạng Đồ thị (Graph Knowledge Base) trên AWS Neptune để tối ưu hóa mô hình GraphRAG — giải pháp giúp ứng dụng AI/LLM truy xuất dữ liệu thông minh, chính xác và ngữ cảnh hơn
+- Lộ trình thăng tiến Sự nghiệp IT (Sysadmin -> Cloud/DevOps):
+Lắng nghe chia sẻ thực tế về hành trình tự học và các cột mốc quan trọng để dịch chuyển sự nghiệp thành công từ vị trí IT Helpdesk lên Senior Sysadmin và tiến tới Cloud/DevOps Engineer
+- Kỹ năng mềm cho Kỹ sư Công nghệ (Effective Teamwork):
+Bí quyết phối hợp hiệu quả giữa các vai trò (Dev, Ops, Security, Data) trong một đội ngũ công nghệ, giúp tối ưu quy trình làm việc và đẩy nhanh tốc độ ra mắt sản phẩm
 
 #### Event-Driven Architecture
 

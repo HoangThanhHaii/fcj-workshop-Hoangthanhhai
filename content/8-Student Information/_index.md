@@ -7,7 +7,6 @@ pre: " <b> 8. </b> "
 ---
 
     
-# Internship Report
 ### Student Information:
 &emsp; **Full Name:** Hoang Thanh Hai
 

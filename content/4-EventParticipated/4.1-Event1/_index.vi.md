@@ -6,11 +6,8 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “Ngày hội cộng đồng FCAJ 2026”
 
 ### Mục Đích Của Sự Kiện
 
@@ -21,9 +18,10 @@ pre: " <b> 4.1. </b> "
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- Hoàng Long (Nhóm nghiên cứu AWS) – Chia sẻ về động lực học tập và Dopamine
+- Nguyễn Khang – Trình bày về Kỹ thuật Lời nhắc Tối ưu
+- Kiến trúc sư giải pháp từ Cloud Kinetics – Định hướng nghề nghiệp và tư duy chung
+- Nguyễn Thảo Phương – Lập trình viên phần mềm tại VIB đã trình bày phương pháp BMX
 
 ### Nội Dung Nổi Bật
 
@@ -122,4 +120,4 @@ Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải 
 
 #### Một số hình ảnh khi tham gia sự kiện
 * Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+

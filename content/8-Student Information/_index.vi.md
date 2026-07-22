@@ -26,7 +26,7 @@ pre: " <b> 8. </b> "
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 30/07/2026
 
-![Your profile picture](images/avatar.png)
+![Your profile picture](../images/avatar.png)
 
 
 ### Nội dung báo cáo

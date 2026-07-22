@@ -7,14 +7,11 @@ pre: " <b> 4.1. </b> "
 ---
 
 
-# Bài thu hoạch “Ngày hội cộng đồng FCAJ 2026”
+# Bài thu hoạch “EVENT 9/5”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Sự kiện được tổ chức nhằm truyền cảm hứng và trang bị cho học viên, lập trình viên trẻ một hành trang toàn diện về tư duy, kỹ năng công nghệ thực chiến và định hướng sự nghiệp trong kỷ nguyên số
 
 ### Danh Sách Diễn Giả
 
@@ -24,100 +21,31 @@ pre: " <b> 4.1. </b> "
 - Nguyễn Thảo Phương – Lập trình viên phần mềm tại VIB đã trình bày phương pháp BMX
 
 ### Nội Dung Nổi Bật
-
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
-
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
-
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
-
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
-
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
-
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- Động lực tâm lý học khám phá cơ chế giải phóng Dopamine trong não bộ và tâm lý học hành vi, giúp lập trình viên kích hoạt cảm hứng, duy trì sự tập trung dài hạn và biến việc học công nghệ thành một niềm vui bền vững
+- Làm Chủ AI Với Prompt Engineering Tối Ưu
+- Phương Pháp Làm Việc Chuẩn Doanh Nghiệp
+- Định Hướng Nghề Nghiệp và Tư Duy Kiến Trúc Đám Mây
 
 ### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Về tư duy của bản thân :
+ + Hiểu rõ mối quan hệ giữa Dopamine và sự tập trung, từ đó biết cách thiết lập "vòng lặp phần thưởng" giúp việc học công nghệ không bị chán nản, duy trì sự kiên trì dài hạn.
+ + Kỹ năng làm chủ AI: Biết cách giao tiếp, ra lệnh chính xác và tối ưu cho AI để hỗ trợ viết code, sửa lỗi (debug), tra cứu tài liệu và tự động hóa các tác vụ lặp đi lặp lại
+ + Góc nhìn thực tế từ Doanh nghiệp: Hiểu được môi trường làm việc thực tế tại các tập đoàn/ngân hàng lớn đòi hỏi những chuẩn mực gì ở một Software Developer
 
 ### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Kích hoạt Động lực & Hiệu suất làm việc (Từ chia sẻ về Dopamine)
+- Biết cách kiểm soát các yếu tố gây xao nhãng để giữ cho não bộ luôn ở trạng thái làm việc sâu
+- Áp dụng kỹ thuật Prompt chuẩn để dùng AI viết Unit Test, tạo dữ liệu giả, viết Documentation hoặc chuyển đổi định dạng dữ liệu (JSON, SQL) chỉ trong vài giây
+- Mang phương pháp làm việc BMX vào quy trình quản lý công việc cá nhân hoặc nhóm, giúp tăng tính kỷ luật, kiểm soát tốt tiến độ và đảm bảo chất lượng đầu ra
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Tham gia event 9/5 là một trải nghiệm rất bổ ích, qua phần chia sẻ về Dopamine, bạn sẽ vỡ lẽ ra lý do vì sao mình hay mất tập trung hay chán nản khi học/làm công nghệ, đồng thời biết cách "hack" lại tâm lý để tìm lại niềm yêu thích với từng dòng code. Tinh thần học hỏi được đẩy lên cao khi thấy những góc nhìn mới mẻ, gần gũi từ các diễn giả trẻ lẫn các chuyên gia kỳ cựu. Được lắng nghe chia sẻ từ Kiến trúc sư giải pháp (Cloud Kinetics), bạn sẽ có trải nghiệm như đang được vấn đáp 1-1, giúp hình dung rõ ràng bức tranh toàn cảnh của ngành Cloud và biết mình cần chuẩn bị gì cho bước tiến tiếp theo
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
+- Động lực đến từ việc Quản trị Dopamine, không phải sự gượng ép: Học tập và làm việc trong ngành IT là một chặng đường dài. Bài học rút ra là hãy chia nhỏ mục tiêu để tạo ra các "chiến thắng nhỏ" liên tục, giúp não bộ giải phóng Dopamine tự nhiên, duy trì niềm vui và sự kiên trì bền vững mà không bị kiệt sức
+- Không được quá phụ thuộc vào AI, AI chỉ mạnh khi người sử dụng biết cách đặt câu hỏi, AI không thay thế con người nhưng người biết dùng AI như thế nào sẽ thay thế người quá phụ thuộc vào AI
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
+(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-9-5.jpg)
+(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-9-5.png)
 

@@ -6,121 +6,50 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Event 06-06-2026”
 
 ### Event Objectives
+- Sharing insights and experiences from senior professionals, the event was organized to provide the developer community and IT students with a comprehensive overview of the processes for developing, deploying, and securing modern applications on cloud platforms.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Keynote Speakers
 
-### Speakers
+- **Bảo Huỳnh** - Docker - A containerization technology
+- **Lê Hoàng Gia Đại** - Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS
+- **Nguyễn Quốc Bảo** - Topic: Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets
+- **Trương Phước** - Topic: Effective Teamwork Strategies
+- **Việt Phát** - Topic: AWS Neptune for Building a Graph Knowledge Base for GraphRAG
+- **Vinh Trần** - Topic: From IT Helpdesk to Senior Sysadmin: A Self-Learning Journey and Career Roadmap to Cloud/DevOps
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+### Event Highlights
+- **Infrastructure Transformation & Application Containerization (Docker & DevOps):**  
+Mastering core container technology with Docker — an essential foundation for standardizing development environments, enabling systems to scale easily, and migrating smoothly to the Cloud.
+- **Intelligent Cybersecurity with AI/ML (AWS WAF + Machine Learning):**  
+Exploring next-generation security methods: Combining AWS WAF with Machine Learning models to automate real-time detection, analysis, and prevention of complex cyber attacks.
+- **Cloud-Based Multiplayer Game Systems (Godot + AWS WebSockets):**  
+Demystifying low-latency real-time connections between Godot game clients and AWS cloud via WebSockets, solving scalability challenges for multiplayer games.
+- **Embracing Advanced AI Trends (GraphRAG & AWS Neptune):**  
+Updating knowledge on Graph Knowledge Base technology on AWS Neptune to optimize GraphRAG models — a solution helping AI/LLM applications retrieve data in a smarter, more accurate, and context-aware manner.
+- **IT Career Advancement Roadmap (Sysadmin -> Cloud/DevOps):**  
+Listening to real-world experiences on self-learning and key milestones required to successfully transition from an IT Helpdesk role to Senior Sysadmin and onward to Cloud/DevOps Engineer.
+- **Soft Skills for Engineers (Effective Teamwork):**  
+Proven strategies for effective collaboration across roles (Dev, Ops, Security, Data) within a tech team to optimize workflows and accelerate product delivery.
 
-### Key Highlights
+### Key Learnings & Takeaways
+- **Key knowledge gained from speakers:**
+  + Mindset, Skills, and Technical Proficiency: Standardizing the development process with Docker, knowing how to package applications into containers to ensure software runs consistently across all environments (from local machines and testing environments to Cloud Production).
+  + Strategic Career Development: A clear path from Helpdesk -> Senior Sysadmin -> Cloud/DevOps, establishing effective learning methodologies in the IT industry, and identifying core skills and certifications to prepare.
+  + Cross-functional Communication: Learning how to communicate effectively and collaborate across different departments.
+  + Smooth Collaboration Workflows: Streamlining teamwork processes to minimize conflicts and optimize final products.
 
-#### Identifying the drawbacks of legacy application architecture
-
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
-
-#### Transitioning to modern application architecture – Microservices
-
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+### Practical Application
+- **Application Packaging (Docker):** Applying Docker to containerize microservices or web/game applications. Eliminating the "works on my machine but fails on server" issue. Easily sharing dev environments with teammates using a single `docker-compose up` command.
+- **Real-time Feature Development (Godot & AWS WebSockets):** Applying WebSockets architecture over the Cloud to build real-time interactive features: multiplayer games, chat systems, notifications, or real-time data dashboards.
 
 ### Event Experience
+- Attending this event was exceptionally beneficial. It provided me with valuable knowledge, a comprehensive perspective on my future career, and a clear vision of working in a professional tech environment.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+#### Key Lessons Learned
+- The event served as a comprehensive bridge empowering tech engineers to boost their capabilities: from mastering modern infrastructure (Docker, AWS WebSockets), optimizing security, and adopting next-gen AI applications (AWS WAF + ML, GraphRAG with AWS Neptune), to refining Teamwork skills and shaping a practical career path from IT Helpdesk to Cloud/DevOps Engineer.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Event Photos
+(/fcj-workshop-Hoangthanhhai/images/5-Workshop/ingame-event/anh-event-6-6.jpg)

@@ -1,57 +1,37 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
+date: 2026-07-22
 weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Generate interview questions based on CV content and selected role
+* Evaluate candidate answers and return score, feedback, suggested answer, and improvement advice
+* Prepare total score calculation logic after completing the question set
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task Description | Start Date | Completion Date | Reference Links |
+| --- | --- | --- | --- | --- |
+| Friday | - Design CV analysis prompt and evaluation criteria for candidate readiness scoring | 2026-06-19 | 2026-06-19 | |
+| Saturday | Day off | 2026-06-20 | 2026-06-20 | |
+| Sunday | Day off | 2026-06-21 | 2026-06-21 | |
+| Monday | - Create prompt templates for technical questions, project questions, and behavioral questions by role | 2026-06-22 | 2026-06-22 | |
+| Tuesday | - Design answer evaluation format including score, feedback, strengths, weaknesses, suggested answer, and improvement advice | 2026-06-23 | 2026-06-23 | |
+| Wednesday | - Test scoring against strong, weak, incomplete, and off-topic answers | 2026-06-24 | 2026-06-24 | |
+| Thursday | - Finalize total score calculation logic after 6 questions and document scoring workflow | 2026-06-25 | 2026-06-25 | |
 
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Multi-aspect Interview Question Generation Prompt Suite:
+  * Successfully built prompt templates for generating dynamic questions based on selected roles.
+  * Categorized questions into 3 distinct types: Technical, Project-based, and Behavioral based on CV data.
+* Detailed Evaluation & Scoring Schema Standardization:
+  * Designed full JSON response formats for single-answer evaluation, ensuring comprehensive output: score, feedback, strengths, weaknesses, suggested answer, and improvement advice.
+* Evaluation Scenario Testing & Overall Scoring Logic:
+  * Executed successful scoring experiments across diverse candidate response scenarios (excellent, weak, missing key points, or off-topic) to ensure objective AI evaluation.
+  * Finalized the overall score aggregation formula (Overall Score Logic) after 6 interview questions and packaged documentation for the complete scoring workflow.

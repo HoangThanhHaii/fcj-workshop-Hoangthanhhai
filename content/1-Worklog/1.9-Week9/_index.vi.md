@@ -1,59 +1,39 @@
 ---
 title: "Worklog Tuần 9"
-date: 2024-01-01
+date: 2026-07-22
 weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Xây dựng prompt đánh giá CV bằng Amazon Bedrock/Nova Lite
+* Trích xuất và chuẩn hóa skills, projects, experience, certificates, suggested roles và score
+* Làm cho AI response ổn định để backend và Dashboard sử dụng
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 6 | - Thiết kế prompt phân tích CV và tiêu chí chấm điểm mức độ sẵn sàng của ứng viên. | 12/06/2026 | 12/06/2026 | |
+| Thứ 7 | Ngày nghỉ | 13/06/2026 | 13/06/2026 | |
+| Chủ nhật | Ngày nghỉ | 14/06/2026 | 14/06/2026 | |
+| Thứ 2 | - Xây dựng prompt template cho Bedrock/Nova Lite để trích xuất CV summary, skills, projects, experience và certificates | 15/06/2026 | 15/06/2026 | |
+| Thứ 3 | - Chuẩn hóa JSON output cho score, suggested roles, strengths, weaknesses và recommendations | 16/06/2026 | 16/06/2026 | |
+| Thứ 4 | - Test prompt với nhiều CV mẫu và sửa lỗi field không đồng nhất hoặc response không đúng JSON | 17/06/2026 | 17/06/2026 | |
+| Thứ 5 | - Tinh chỉnh prompt phân tích CV và ghi chú fallback structure khi AI response lỗi | 18/06/2026 | 18/06/2026 | |
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Chuẩn hóa Định dạng Đầu ra (JSON Output Schema):
+  * Thống nhất cấu trúc dữ liệu JSON trả về với đầy đủ các trường thông tin: điểm số (score), vị trí đề xuất (suggested roles), điểm mạnh (strengths), điểm yếu (weaknesses) và gợi ý phát triển (recommendations)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Kiểm thử Thực tế & Tối ưu hóa Độ ổn định AI:
+  * Luyện tập Test prompt với nhiều mẫu CV có định dạng khác nhau để xử lý triệt để hiện tượng bất đồng nhất giữa các trường thông tin hoặc AI trả về sai định dạng JSON
+  * Tinh chỉnhPrompt tối ưu chi phí/độ trễ và xây dựng thành công cấu trúc dữ liệu dự phòng (Fallback Structure) giúp Backend không bị ngắt quãng khi AI xảy ra lỗi phản hồi
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
 
 

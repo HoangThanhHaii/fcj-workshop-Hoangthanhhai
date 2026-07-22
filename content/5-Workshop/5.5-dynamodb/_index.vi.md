@@ -10,7 +10,7 @@ pre: " <b> 5.5. </b> "
 
 DynamoDB là database chính của hệ thống, lưu hồ sơ người dùng, metadata CV và dữ liệu phỏng vấn.
 
-![Cognito flow](/fcj-workshop-huydat/images/5-Workshop/service-image/5.5.png)
+![Cognito flow](/fcj-workshop-Hoangthanhhai/images/5-Workshop/service-image/5.5.png)
 
 #### Các bảng cần triển khai
 

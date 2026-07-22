@@ -1,7 +1,7 @@
 ---
 title: "Báo cáo thực tập"
 date: 2026-07-22
-weight: 1
+weight: 8
 chapter: false
 ---
 

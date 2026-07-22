@@ -3,6 +3,7 @@ title: "Báo cáo thực tập"
 date: 2026-07-22
 weight: 8
 chapter: false
+pre: " <b> 8. </b> "
 ---
 
 # Báo cáo thực tập

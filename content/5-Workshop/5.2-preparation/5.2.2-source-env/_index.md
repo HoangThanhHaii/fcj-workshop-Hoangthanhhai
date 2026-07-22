@@ -17,15 +17,15 @@ backend/
 
 The backend/ folder contains these Lambdas:
 
-![Cognito flow](/fcj-workshop-huydat/images/5-Workshop/service-image/lampda522.png)
+![Cognito flow](/fcj-workshop-Hoangthanhhai/images/5-Workshop/service-image/lampda522.png)
 
 #### Frontend environment variables
 
 frontend/.env needs API endpoints and Cognito config:
 
-![Cognito flow](/fcj-workshop-huydat/images/5-Workshop/service-image/moitruong522.png)
+![Cognito flow](/fcj-workshop-Hoangthanhhai/images/5-Workshop/service-image/moitruong522.png)
 
-![Cognito flow](/fcj-workshop-huydat/images/5-Workshop/service-image/apcliaent.png)
+![Cognito flow](/fcj-workshop-Hoangthanhhaiimages/5-Workshop/service-image/apcliaent.png)
 
 #### Local check
 

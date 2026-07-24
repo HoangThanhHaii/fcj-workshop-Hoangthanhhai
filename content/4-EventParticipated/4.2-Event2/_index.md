@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “Event 06-06-2026”
+# Summary Report: EVENT 6/6”
 
 ### Event Objectives
 - Sharing insights and experiences from senior professionals, the event was organized to provide the developer community and IT students with a comprehensive overview of the processes for developing, deploying, and securing modern applications on cloud platforms.

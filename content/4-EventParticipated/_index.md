@@ -1,44 +1,36 @@
 ---
-title: "Events Participated"
+title: "Attended Events"
 date: 2024-01-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+During my internship, I participated in two events. Each event was a memorable experience filled with new, interesting, and useful knowledge, alongside wonderful gifts and great moments.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+### [Event 1](4.1-Event1/)
+&emsp;**Event Name:** Event 09/05
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+&emsp;**Time:** 09:00, May 09, 2026
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Role in Event:** Attendee 
 
-&emsp;**Role:** Attendee  
+&emsp;**Description:** The event featured 4 practical presentations to help developers achieve comprehensive growth: decoding the mechanism of Dopamine to maintain long-term learning motivation, guiding Prompt Engineering techniques to master AI for code writing and debugging, sharing the BMX method to standardize workflows to banking standards, and solutions from Cloud Kinetics to orient system thinking alongside a career breakthrough roadmap in the cloud sector.
 
----
+&emsp;**Key Takeaways & Values Gained:** Clearly understanding the mechanism of Dopamine to manage emotions and establishing a reward loop to maintain long-term concentration and fuel passion for work without burnout. Mastering Prompt Engineering techniques to control AI precisely; applying it to support code writing, debugging, automating documentation, and creating test data. Grasping the BMX method to standardize workflows, enhancing discipline, and meeting strict standards at large corporations and banks. Gaining practical perspectives from a Cloud Solutions Architect, helping to visualize the full picture of the Cloud industry and clearly define a personal development roadmap.
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Event 2](4.2-Event2/)
+&emsp;**Event Name:** Event 06/06
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+&emsp;**Time:** 09:00, June 06, 2026
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-&emsp;**Role:** Attendee  
+&emsp;**Role in Event:** Attendee 
+
+&emsp;**Description:** The event focused on key topics: standardizing development environments with Docker, enhancing cloud security with AWS WAF integrated with Machine Learning, building real-time systems for games using AWS WebSockets, optimizing AI models with GraphRAG on AWS Neptune, improving teamwork skills, and outlining a practical career advancement roadmap to Cloud/DevOps.
+
+&emsp;**Key Takeaways & Values Gained:** Mastering Docker technology for application containerization, helping standardize development environments and ensuring products run consistently from local machines to the Cloud; acquiring additional knowledge on AWS WAF and Machine Learning to automatically detect and prevent real-time cyber attacks; practicing effective teamwork methods between departments (Dev, Ops, Security); and defining a practical career advancement roadmap from IT Helpdesk/Sysadmin to Cloud/DevOps Engineer.

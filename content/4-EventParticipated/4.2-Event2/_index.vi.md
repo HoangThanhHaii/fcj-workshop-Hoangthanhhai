@@ -7,7 +7,7 @@ pre: " <b> 4.2. </b> "
 ---
 
 
-# Bài thu hoạch “Event 06-06-2026”
+# Bài thu hoạch EVENT 6/6”
 
 ### Mục Đích Của Sự Kiện
 - Chia sẻ những kiến thức của anh chị đi trước, sự kiện được tổ chức nhằm mang đến cho cộng đồng lập trình viên và sinh viên Công nghệ thông tin một góc nhìn toàn diện về quy trình phát triển, triển khai và bảo mật các ứng dụng hiện đại trên nền tảng điện toán đám mây

@@ -33,7 +33,7 @@ pre: " <b> 4.1. </b> "
  + Góc nhìn thực tế từ Doanh nghiệp: Hiểu được môi trường làm việc thực tế tại các tập đoàn/ngân hàng lớn đòi hỏi những chuẩn mực gì ở một Software Developer
 
 ### Ứng Dụng Vào Công Việc
-- Kích hoạt Động lực & Hiệu suất làm việc (Từ chia sẻ về Dopamine)
+- Kích hoạt Động lực & Hiệu suất làm việc (chia sẻ về Dopamine)
 - Biết cách kiểm soát các yếu tố gây xao nhãng để giữ cho não bộ luôn ở trạng thái làm việc sâu
 - Áp dụng kỹ thuật Prompt chuẩn để dùng AI viết Unit Test, tạo dữ liệu giả, viết Documentation hoặc chuyển đổi định dạng dữ liệu (JSON, SQL) chỉ trong vài giây
 - Mang phương pháp làm việc BMX vào quy trình quản lý công việc cá nhân hoặc nhóm, giúp tăng tính kỷ luật, kiểm soát tốt tiến độ và đảm bảo chất lượng đầu ra
